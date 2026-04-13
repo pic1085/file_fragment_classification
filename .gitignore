@@ -1,6 +1,19 @@
 # macOS
 .DS_Store
 
+# Logs / env / venv
+*.log
+.env
+.venv/
+
+# Data dirs (local only)
+data/
+data_feat/
+
+# IDE settings
+.idea/
+.vscode/
+
 # Python caches
 __pycache__/
 *.py[cod]
