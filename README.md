@@ -1,6 +1,5 @@
 # FFT-75 DEV Workspace
 
-![License: MIT](docs/badges/license-mit.svg)
 ![Python](docs/badges/python.svg)
 
 이 레포지토리는 FFT-75 파일 타입 분류를 위한 실험/파이프라인을 모은 작업 공간입니다.
@@ -50,6 +49,3 @@
 **경로 설정**
 - `core/paths.py`가 기본 경로를 관리합니다.
 - 개인 환경에 맞춘 경로는 `local/paths.py`에서 오버라이드하세요.
-
-**라이선스**
-MIT License (see `LICENSE`)
