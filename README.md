@@ -1,11 +1,9 @@
 # FFT-75 DEV Workspace
 
-![Python](docs/badges/python.svg)
-
 이 레포지토리는 FFT-75 파일 타입 분류를 위한 실험/파이프라인을 모은 작업 공간입니다.
 바이트 단위 특징 추출, 베이스라인 분류기, 계층적 분류기, 혼동쌍 분석, 시각화, 딥러닝 실험까지 한 곳에서 정리했습니다.
 
-**무엇을 진행했나요?**
+**진행 내용**
 - `.npz` 데이터셋 로드 및 클래스 매핑 정리
 - 바이트 히스토그램/통계/바이그램/매직바이트 기반 특징 추출
 - RandomForest 베이스라인 학습 및 평가
@@ -20,6 +18,7 @@
 - `outputs/fig3_histogram_overlay.png`: 바이트 히스토그램 오버레이
 - `outputs/fig4_tsne_humanreadable.png`: Human-readable 클래스 t-SNE
 - `outputs/` 내 CSV/NPY 등 비이미지 결과물은 로컬 생성물이며 `.gitignore`로 제외됨
+
 
 **실행 방법**
 - `python scripts/main.py --data_dir /path/to/Data_set`
@@ -47,7 +46,7 @@
 - `model/`: 딥러닝 모델 및 클러스터링 실험
 - `N/`: n-gram 및 2-stage 실험
 - `unknown/`: 불확실 샘플/보정 관련 CNN 실험
-- `outputs/`: 실행 결과물(이미지 위주, 비이미지 산출물은 gitignore)
+- `outputs/`: 실행 결과물(그림/CSV/예측)
 - `result/`: 학습된 모델 가중치
 - `local/`: 로컬 경로 오버라이드
 
