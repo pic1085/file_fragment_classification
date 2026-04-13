@@ -27,6 +27,11 @@
 - `python scripts/extract_features.py --data_dir /path/to/Data_set`
 - `python scripts/visualize_confusion.py --data_dir /path/to/Data_set`
 
+**데이터셋**
+- FFT-75 (File Fragment Type, FFT-75 Dataset)
+- 링크: https://ieee-dataport.org/open-access/file-fragment-type-fft-75-dataset
+- 라이선스/이용조건: 데이터포트 페이지 기준
+
 루트에 호환용 엔트리도 제공됩니다.
 - `python main.py`
 - `python train_hierarchical.py`
