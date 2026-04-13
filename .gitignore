@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Common tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local-only path overrides
+local/
+
+# Model weights / binaries
+result/*.pth
+model/*.pth
+unknown/**/best.pt
+
+# Experiment runs / reports / artifacts
+model/result/
+model/runs/
+model/runs_hdbscan*/
+N/runs_*/
+unknown/runs_*/
+
+# outputs: keep images only
+outputs/*
+!outputs/
+!outputs/**/*.png
+!outputs/**/*.jpg
+!outputs/**/*.jpeg
+!outputs/**/*.gif
+!outputs/**/*.svg
+!outputs/**/*.pdf
+
+# Common artifact formats
+**/*.pkl
+**/*.joblib
+**/*.npy
+**/*.npz
+**/*.csv
+**/*.csv.gz
